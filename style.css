@@ -131,3 +131,49 @@ main{
     font-style: bold;
     /* font-weight: 700; */
 }
+
+
+/* skill related styles */
+.skill-container{
+    display: flex;
+
+
+}
+.skill{
+    padding:20px;
+    margin:0 20px;
+    width: 267px;
+height: 350px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px #FFF8F3;
+}
+.skill img{
+    width: 44px;
+height: 44px;
+
+}
+.skill-title{
+    color: #181818;
+text-align: left;
+font-size: 20px;
+font-weight: 700;
+}
+.skill-desc{
+    display: flex;
+width: 201px;
+color: #757575;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+/* resume section */
+.col-title{
+    color:#474747;
+font-size: 30px;
+font-weight: 700;
+}
+.resume-col{
+    
+}
