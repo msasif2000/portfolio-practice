@@ -4,6 +4,25 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.sec-title {
+    color: #181818;
+    text-align: center;
+    padding-top:5px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sec-desc{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* Navbar style */
 .text-primary {
     color: #FD6E0A;
@@ -13,15 +32,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0 200px;
+    margin: 0 200px;
 }
 
 .nav-title {
     color: #181818;
     font-family: Open Sans;
-    font-size: 45px;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     line-height: normal;
 }
 
@@ -47,43 +66,68 @@ nav a {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    color:white;
-    padding:15px 30px
+    color: white;
+    padding: 15px 30px
 }
 
 /* header styles */
-header{
+header {
     background-color: #FFF8F3;
     background-image: url('./images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
-    padding:30px 30px 0px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner img{
+
+.banner img {
     width: 584px;
     height: 676px;
 }
-.greeting{
+
+.greeting {
     font-size: 45px;
-    color:#474747;
-    margin-bottom:0;
+    color: #474747;
+    margin-bottom: 0;
 }
-.bnr-title{
+
+.bnr-title {
     font-size: 85px;
     font-style: normal;
     font-weight: 700px;
-    margin-top:5px;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
 
 /*============ main section style =========*/
 
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
 /* about section styles */
+.about{
+    margin:0 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+
+}
+.about-info{
+    text-align: center;
+    font-style: bold;
+    /* font-weight: 700; */
+}
