@@ -221,28 +221,50 @@ main {
     padding-right: 15px;
 }
 
-.d-cv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 130px;
-}
 
-.cv {
+
+
+/* footer style */
+footer{
+    background-color: #FFF8F3;
+    display: flex;
+    gap:100px;
+    padding: 130px 200px;
+}
+.footer-col{
+    width:50%;
+}
+.social-link a{
+    margin-right:24px;
+}
+.contact input[type="text"],.contact input[type="email"], textarea{
+    /* width: 461px;
+height: 64px; */
+    display:block;
+    margin-bottom: 25px;
+    padding:18px 35px;
+    border-radius: 5px;
+    color: #757575;
+    border:none;
+    width:100%;
+}
+.btn{
     text-align: center;
     background-color: #FD6E0A;
-    padding: 8px;
+    padding: 5px;
     border: none;
+    color:white;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    width: 200px;
-    height: 64px;
-    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
-.cv:hover {
+.btn:hover {
     cursor: pointer;
 }
