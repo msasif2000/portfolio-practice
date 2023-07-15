@@ -67,7 +67,7 @@ nav a {
     font-style: normal;
     font-weight: 600;
     color: white;
-    padding: 15px 30px;
+    padding: 10px 20px;
 }
 .btn-primary:hover{
     cursor: pointer;
@@ -231,15 +231,20 @@ main {
 footer{
     background-color: #FFF8F3;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap:100px;
     padding: 130px 200px;
 }
 .footer-col{
-    width:50%;
+    width:100%;display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.social-link a{
+/* .social-link a{
     margin-right:24px;
-}
+} */
 .contact input[type="text"],.contact input[type="email"], textarea{
     /* width: 461px;
 height: 64px; */
@@ -270,4 +275,175 @@ height: 64px; */
 
 .btn:hover {
     cursor: pointer;
+}
+@media screen and (max-width:576px){
+   
+    header {
+        background-color: #FFF8F3;
+        background-image: url('./images/header_bg.png'),url('./images/developer.png');
+        background-repeat: no-repeat;
+        background-position: bottom, top left;
+    }
+    nav>ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    nav li {
+        list-style: none;
+        padding-top: 10px;
+        /* margin-right: 50px; */
+    }
+    .bnr-title {
+        font-size: 60px;
+        font-style: normal;
+        font-weight:500px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .btn-primary {
+        border-radius: 5px;
+        background: #FD6E0A;
+        border: none;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        color: white;
+        padding: 5px 10px;
+    }
+    .banner img {
+        width: 250px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav, .banner{
+        flex-direction: column;
+    }
+    .sec-desc{
+        padding: 0 20px;
+        text-align: center;
+    }
+    .about{
+        padding : 0 10px;
+        margin:5px 30px
+    }
+    .about-info-container, .resume-container{
+        flex-direction: column;
+    }
+    .skill-desc{
+        width:100%;
+        text-align: center;
+    }
+    .skill{
+        margin:5px 10px;
+        height:auto;
+    }
+    .skill-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .resume-container {
+       
+       flex-direction: column;
+        margin: 0 30px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    .social-link{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-col {
+        width: 80%;
+    }
+    
+}
+@media screen and (min-width:576.01px) and (max-width:992px){
+    header {
+        background-color: #FFF8F3;
+        background-image: url('./images/header_bg.png'),url('./images/developer.png');
+        background-repeat: no-repeat;
+        background-position: bottom, top left;
+    }
+    nav li {
+        list-style: none;
+        padding-top: 10px;
+        /* margin-right: 50px; */
+    }
+    .bnr-title {
+        font-size: 60px;
+        font-style: normal;
+        font-weight:500px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .btn-primary {
+        border-radius: 5px;
+        background: #FD6E0A;
+        border: none;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        color: white;
+        padding: 5px 10px;
+    }
+    .banner img {
+        width: 250px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav, .banner{
+        flex-direction: column;
+    }
+    .sec-desc{
+        padding: 0 20px;
+        text-align: center;
+    }
+    .about{
+        padding : 0 20px;
+        margin:10px 30px
+    }
+    .about-info-container , .resume-container{
+        flex-direction: column;
+    }
+    .skill-desc{
+        width:100%;
+        text-align: center;
+    }
+    .skill{
+        margin:5px 10px;
+        width:450px;
+        height:auto;
+    }
+    .skill-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .resume-container {
+       
+        flex-direction: column;
+         margin: 0 30px;
+     }
+    footer{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    .social-link{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-col {
+        width: 80%;
+    }
+
 }
